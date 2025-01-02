@@ -2,10 +2,10 @@ import { Link } from "react-router";
 import { IoBagHandle } from "react-icons/io5";
 const NavBar = () => {
   return (
-    <nav className="h-70 bg-customGreen flex justify-between items-center text-white shadow-bottom p-4">
+    <nav className="h-70 bg-gradient-to-r from-green-500 to-teal-400 flex justify-between items-center text-white shadow-bottom p-4">
       <Link to="/">
         <h2 className="font-pacifico italic text-2xl font-bold">
-          ShoppingMart
+          GadgetsUnleash
         </h2>
       </Link>
       <Link to="/cart">
