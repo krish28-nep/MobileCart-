@@ -18,7 +18,7 @@ const Card:React.FC<CardProps> = ({item}) => {
         <h2>{name}</h2>
         <p className="text-sm max-h-[3*12px] overflow-hidden text-ellipsis legacy-flex">{desc}</p>
         <p className="text-xl max-h-[2*12px] overflow-hidden text-ellipsis legacy-flex">${price}</p>
-        <button className="bg-[#4caf50] text-white py-[8px] px-12px] rounded-[4px] cursor-pointer text-sm transition-bg duration-300 hover:bg-[#45a049]">Add to Cart</button>
+        <button className="bg-[#4caf50] text-white py-[8px] px-[12px] mb-2 rounded-[4px] cursor-pointer text-sm transition-bg duration-300 hover:bg-[#45a049] ">Add to Cart</button>
       </div>
     </div>
   )
